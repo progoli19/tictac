@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+table {
+    margin: auto;
+    border-spacing: 10px;
+}
+td {
+    padding: 6px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+    background-color: aquamarine;
+    font-size: 25px;
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+td:hover {
+    background-color: rgb(205, 229, 182);
+}
+td:active {
+    background-color: rgb(118, 196, 198);
+}
+input {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(196, 246, 229);
+    padding: 6px;
+    color: rgb(115, 19, 19);
+    text-align: right;
+}
